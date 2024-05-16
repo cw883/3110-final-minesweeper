@@ -1,3 +1,10 @@
+_build/
+_opam/
+_coverage/
+_data/
+.vscode/
+*.idx
+*.db
 *.annot
 *.cmo
 *.cma

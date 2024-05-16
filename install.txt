@@ -1,0 +1,8 @@
+Do the following:
+
+1. Install OCaml from https://cs3110.github.io/textbook/chapters/preface/install.html
+
+2. Run the following commands in the terminal
+
+opam install bogue
+opam install yojson

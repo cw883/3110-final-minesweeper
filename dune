@@ -1,0 +1,14 @@
+(env
+ (dev
+  (flags
+   (:standard -warn-error -a))))
+
+(install
+ (files 
+   assets/fonts/WorkSans-Regular.ttf 
+   assets/images/title.png 
+   assets/images/scores.png
+   assets/images/lose.png
+   assets/images/win.png)
+ (section share)
+ (package final_project))

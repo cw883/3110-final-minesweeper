@@ -1,0 +1,33 @@
+---
+group:
+  - name: Tami Takada
+    netid: tt554
+  - name: Xavier Diaz-Sun
+    netid: xsd2
+  - name: Cougar Hashikura
+    netid: ch999
+  - name: Caleb Woo
+    netid: cw883
+  
+pm:
+  name: Kidus Zegeye
+  netid: kmz25
+publish: true
+title: "Minesweeper (With some twists)"
+git-repo: "https://github.coecis.cornell.edu/tt554/cs3110-final-project"
+demo-video-url: ""
+# Write a short, attention-grabbing description of your project.
+desc: >
+  Our project is a Minesweeper game where the user is able to play the game
+  with twists of their choice. You can choose between many different rulesets.
+  Typically, in normal minesweeper, when you click on the grid, it will reveal
+  the number of mines that are directly adjacent to the square. However,
+  with the custom ruleset, it will display the number of mines in other directions
+  (diagonal, the directions that a knight in chess would do, a cross). Users
+  can also select between a variety of fun themes that changes the color of
+  the UI in the home screen. 
+
+  The game can be played with a grid of size 4x4 to 12x12 with between 4 and
+  12 mines. Click on all the non mine grids to win the game. One thing to
+  note is that you should click the edges of the grid and start button
+  to activate them.

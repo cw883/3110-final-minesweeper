@@ -1,0 +1,1062 @@
+commit 8b171f596b9307f5f8a8a0b84575f95b5d30a663
+Merge: 1bfa84d 71d002b
+Author: Xavier Diaz-Sun <xsd2@cornell.edu>
+Date:   Thu May 16 10:47:33 2024 -0400
+
+    made changes to yaml
+
+commit 1bfa84d3eb07d6d00122c6dbc76f16b6f0bbbe16
+Author: Xavier Diaz-Sun <xsd2@cornell.edu>
+Date:   Thu May 16 10:45:47 2024 -0400
+
+    changed yaml file to true
+
+commit 71d002bcee85e1781e47a4be75c58c3ad925cc09
+Author: Tami Takada <tamitakada@gmail.com>
+Date:   Thu May 16 10:45:38 2024 -0400
+
+    publish: true
+
+commit 8fae7bff77aa1af4b1a7b6e3fe733deab4c28132
+Author: Cougar Hashikura <ch999@cornell.edu>
+Date:   Thu May 16 10:42:31 2024 -0400
+
+    Added abstraction functions and representation invariants
+
+commit abfa485f39650dd179aee57c4b8d0e5dcbc4a95b
+Author: Tami Takada <tamitakada@gmail.com>
+Date:   Thu May 16 10:33:33 2024 -0400
+
+    Flipped row/col
+
+commit c295e4add4b7b58e6bdca6f0c0f98fa8691f47e2
+Author: Cougar Hashikura <ch999@cornell.edu>
+Date:   Thu May 16 10:05:59 2024 -0400
+
+    Minor documentation changes
+
+commit ce7110132f86bb947527aca50518ff2742cda2cf
+Merge: bdc54d2 39cc835
+Author: Cougar Hashikura <ch999@cornell.edu>
+Date:   Thu May 16 10:01:51 2024 -0400
+
+    Merge branch 'main' of github.coecis.cornell.edu:tt554/cs3110-final-project
+
+commit bdc54d2313d74b6f16602fa3878d88b4f8078cc6
+Author: Cougar Hashikura <ch999@cornell.edu>
+Date:   Thu May 16 09:58:54 2024 -0400
+
+    Updated documentation
+
+commit 39cc8351df15a77fb488ae8220e0f1ab1473e3c1
+Author: Xavier Diaz-Sun <xsd2@cornell.edu>
+Date:   Thu May 16 09:45:05 2024 -0400
+
+    added LOC file
+
+commit ec6754d405001522cb67280451ae60fe5a72d678
+Author: Xavier Diaz-Sun <xsd2@cornell.edu>
+Date:   Thu May 16 09:44:33 2024 -0400
+
+    added LOC file
+
+commit 239ba4d9aac0090c73dd7ebf12ecfefb730b1661
+Author: Xavier Diaz-Sun <xsd2@cornell.edu>
+Date:   Thu May 16 09:28:57 2024 -0400
+
+    formatted main
+
+commit ee3c4d59d697d921725c1d76299131072506426c
+Author: Xavier Diaz-Sun <xsd2@cornell.edu>
+Date:   Thu May 16 09:08:31 2024 -0400
+
+    formatted with ocamlformat
+
+commit 9c471545e5a3b3d31ca5179a9ad0f6b40c50ff16
+Author: Xavier Diaz-Sun <xsd2@cornell.edu>
+Date:   Thu May 16 08:54:41 2024 -0400
+
+    added yaml and install file
+
+commit 6e24c3d72aeb580245bd708c7e0e043d8ddf8d15
+Author: Tami Takada <tamitakada@gmail.com>
+Date:   Thu May 16 07:21:12 2024 -0400
+
+    Updated
+
+commit 60e0bcfcd6f44dda3e199131374bdfd23010f879
+Author: Tami Takada <tamitakada@gmail.com>
+Date:   Thu May 16 07:20:26 2024 -0400
+
+    Fixed click detection
+
+commit cf0a472fd9c2f7e45b51d9bfdff70d52b29aa823
+Author: Tami Takada <tamitakada@gmail.com>
+Date:   Thu May 16 07:15:29 2024 -0400
+
+    Added attribution and cleaned assets folder
+
+commit 5b955ca6b2753cc5ab1535a477c5a8a6ee978f13
+Author: Cougar Hashikura <ch999@cornell.edu>
+Date:   Wed May 15 23:37:23 2024 -0400
+
+    Added custom rulesets, polished tests
+    
+    - Board and square are no longer parametrized on modules
+    - Instead, Board.init_board takes an additional argument for which ruleset to use when creating the squares
+
+commit e67c692a7064e94855d997ba57c24300b41e820c
+Merge: 0efec48 990cb47
+Author: Cougar Hashikura <ch999@cornell.edu>
+Date:   Wed May 15 14:36:51 2024 -0400
+
+    Merge branch 'main' of github.coecis.cornell.edu:tt554/cs3110-final-project
+
+commit 0efec484fc6d94fda5652184496183d4413ae3c6
+Author: Cougar Hashikura <ch999@cornell.edu>
+Date:   Wed May 15 14:35:28 2024 -0400
+
+    Removed unnecessary declarations
+
+commit 990cb47953be0afe9dc578c4df3a93b4ce668df9
+Author: Tami Takada <tamitakada@gmail.com>
+Date:   Wed May 15 10:29:19 2024 -0400
+
+    Rolled back adjacents change
+
+commit baa31dd7d27c85b05cb6c19fab1004e02b647337
+Author: Xavier Diaz-Sun <xsd2@cornell.edu>
+Date:   Wed May 15 10:21:11 2024 -0400
+
+    added documentation for board_display.ml
+
+commit 7f9e0ed410cd08b614287f9353fbb34cc841b867
+Author: Xavier Diaz-Sun <xsd2@cornell.edu>
+Date:   Wed May 15 10:15:08 2024 -0400
+
+    added 1 more theme
+
+commit 88cbcc5b7c6c168c6b006f3bce86f07c800c6b76
+Author: Tami Takada <tamitakada@gmail.com>
+Date:   Wed May 15 08:03:15 2024 -0400
+
+    Added exception tests for stats
+
+commit 743ee937b58daa8973d172515e472612b20cfc76
+Author: Tami Takada <tamitakada@gmail.com>
+Date:   Wed May 15 07:33:38 2024 -0400
+
+    Removed duplicate comments and fixed warnings
+
+commit ee220355db13acf47a95a50523424f3f357f141b
+Author: Tami Takada <tamitakada@gmail.com>
+Date:   Wed May 15 07:24:13 2024 -0400
+
+    Reveal adjacents update
+
+commit 56091922cffbb7be55a538608f1970805b7c608d
+Author: tt554 <tt554@cornell.edu>
+Date:   Wed May 15 06:54:29 2024 -0400
+
+    Delete data directory
+
+commit 07b368b6311407c1b91448077832645056709ed0
+Merge: b1f8f2b 3111bc6
+Author: Cougar Hashikura <ch999@cornell.edu>
+Date:   Wed May 15 02:32:39 2024 -0400
+
+    Merge branch 'main' of github.coecis.cornell.edu:tt554/cs3110-final-project
+
+commit b1f8f2b1f9c650a2b211f22a0e96b1e8f1bfc44e
+Author: Cougar Hashikura <ch999@cornell.edu>
+Date:   Wed May 15 02:32:32 2024 -0400
+
+    Added basic customized square/board testing
+
+commit 3111bc6d554c3c599f3f5586963e8165c674d0d2
+Author: Caleb Woo <cw883@cornell.edu>
+Date:   Wed May 15 01:49:19 2024 -0400
+
+    TODO: Fix test cases with **/TODO
+    
+    - added incomplete? tests for find_adjacent_squares and get_adjacent_mines
+
+commit 51dbe9ddc8831f3f04b80210df3de7fc6bc19b5d
+Author: Caleb Woo <cw883@cornell.edu>
+Date:   Wed May 15 01:36:03 2024 -0400
+
+    Get_adjacent_mines testing
+
+commit 564d5cce9677251fb8b8631e07585feeeefb9a04
+Merge: 92fa834 ee5e507
+Author: Cougar Hashikura <ch999@cornell.edu>
+Date:   Wed May 15 01:03:46 2024 -0400
+
+    Merge branch 'main' of github.coecis.cornell.edu:tt554/cs3110-final-project
+
+commit 92fa8344c79bc7637b733fe50281f74f0a180417
+Author: Cougar Hashikura <ch999@cornell.edu>
+Date:   Wed May 15 01:03:41 2024 -0400
+
+    Fixed revealing squares until reaching numbered tiles
+
+commit ee5e50795f99508d098d4ee85b59847c4af0c6f3
+Author: Xavier Diaz-Sun <xsd2@cornell.edu>
+Date:   Wed May 15 01:01:44 2024 -0400
+
+    removed some comments
+
+commit 7daa17bf64c5f1b1a2f02357f325268eb34bad82
+Author: Xavier Diaz-Sun <xsd2@cornell.edu>
+Date:   Wed May 15 00:59:23 2024 -0400
+
+    added some more fun themes
+
+commit a866c7053f7d2e7cffbfdc33f392c9b2d900c6d7
+Author: Xavier Diaz-Sun <xsd2@cornell.edu>
+Date:   Wed May 15 00:41:28 2024 -0400
+
+    fixed the swapping, now the board dies if the first non-first click is a mine
+
+commit 60a6f9ce65c9cd113ebc8181721ff49919aa1c74
+Author: Xavier Diaz-Sun <xsd2@cornell.edu>
+Date:   Wed May 15 00:39:17 2024 -0400
+
+    fixed the incrementing
+
+commit 680d9e403504bf7edc705a2a30db06648dd4ca97
+Author: Xavier Diaz-Sun <xsd2@cornell.edu>
+Date:   Wed May 15 00:33:12 2024 -0400
+
+    wraped reveal_square to also get update_board_with_mines_set_for_loop, but there is still an issue with the printing of the board bc if it was previously a mine, it will print the number but its red
+
+commit c49538b657787ab4a76979bc922cc6c3008d7c24
+Author: Xavier Diaz-Sun <xsd2@cornell.edu>
+Date:   Wed May 15 00:27:35 2024 -0400
+
+    no longer can die on first click
+
+commit 8759eff80cc3172b41c5a1350d3954a2bd152c29
+Merge: e4c3f5d 81e5811
+Author: Xavier Diaz-Sun <xsd2@cornell.edu>
+Date:   Wed May 15 00:00:13 2024 -0400
+
+    Merge branch 'main' of github.coecis.cornell.edu:tt554/cs3110-final-project
+
+commit e4c3f5d618aad30041907e47f3b6d9a064265c5b
+Merge: 0fd06a1 f6e2392
+Author: Xavier Diaz-Sun <xsd2@cornell.edu>
+Date:   Wed May 15 00:00:06 2024 -0400
+
+    Merge branch 'main' of github.coecis.cornell.edu:tt554/cs3110-final-project
+
+commit 81e58116a9d0c1c68533d99fdea4ef2ba4536e5e
+Merge: 61c0bf5 f6e2392
+Author: Tami Takada <tamitakada@gmail.com>
+Date:   Tue May 14 23:59:31 2024 -0400
+
+    Merge branch 'main' of github.coecis.cornell.edu:tt554/cs3110-final-project
+
+commit 0fd06a177b15a90cf4d8216ffe84da0dee619195
+Author: Xavier Diaz-Sun <xsd2@cornell.edu>
+Date:   Tue May 14 23:59:25 2024 -0400
+
+    trying to fix dying on first move
+
+commit 61c0bf589f6e8650fb3f34f2d940a449ffc1826e
+Author: Tami Takada <tamitakada@gmail.com>
+Date:   Tue May 14 23:59:25 2024 -0400
+
+    Update theme immediately
+
+commit f6e2392aba458f4037c1318381f4c78a49a72375
+Merge: b781a52 2214e88
+Author: Caleb Woo <cw883@cornell.edu>
+Date:   Tue May 14 23:55:13 2024 -0400
+
+    Merge branch 'main' of github.coecis.cornell.edu:tt554/cs3110-final-project into main
+
+commit b781a52289dcefbd957421904c045a2d1620bc0a
+Author: Caleb Woo <cw883@cornell.edu>
+Date:   Tue May 14 23:55:04 2024 -0400
+
+    Test Cases for Board
+    
+    - Wrote tests for most exposed functions
+
+commit 2214e888ac64ec34e805381a68f8e75807d21ff0
+Author: Tami Takada <tamitakada@gmail.com>
+Date:   Tue May 14 23:54:25 2024 -0400
+
+    Removed self from adjacents
+
+commit f32fad73dc72dbe793b95bce46d873692124e8a2
+Author: Tami Takada <tamitakada@gmail.com>
+Date:   Tue May 14 23:53:38 2024 -0400
+
+    Fixed adjacents reveal
+
+commit cfe5aa2c9478d36f9e01fa662f3e35e4f4e40466
+Author: Tami Takada <tamitakada@gmail.com>
+Date:   Tue May 14 23:44:49 2024 -0400
+
+    Changed data dir
+
+commit 9a42280166c8d8676e2cecd763ea32e7e270c6b5
+Author: Xavier Diaz-Sun <xsd2@cornell.edu>
+Date:   Tue May 14 23:34:39 2024 -0400
+
+    fixed crashing on initialization
+
+commit af63795df873de51dbab7b054018d49b4a85aaa7
+Author: Tami Takada <tamitakada@gmail.com>
+Date:   Tue May 14 22:43:41 2024 -0400
+
+    Fixed dimension crash
+
+commit e7343e65ac38f0d8924df7a999ff029175761cfe
+Merge: 8c24068 0274de5
+Author: Caleb Woo <cw883@cornell.edu>
+Date:   Tue May 14 22:31:08 2024 -0400
+
+    Merge branch 'main' of github.coecis.cornell.edu:tt554/cs3110-final-project into main
+
+commit 8c24068dc81dfc0019a30d2ee04176089a94c304
+Author: Caleb Woo <cw883@cornell.edu>
+Date:   Tue May 14 22:30:59 2024 -0400
+
+    Testing for Square and Board functions (non-gui)
+    
+    - added tests for flagging
+    - tests for raising failures in board
+
+commit 0274de5e6f3598ff6722b9d3f2232c49766ea7b6
+Author: Xavier Diaz-Sun <xsd2@cornell.edu>
+Date:   Tue May 14 10:28:53 2024 -0400
+
+    removed flagging from mli
+
+commit ddb34b4d9389a4a2d5be692feb9a9fcd79993a69
+Author: Xavier Diaz-Sun <xsd2@cornell.edu>
+Date:   Tue May 14 10:21:56 2024 -0400
+
+    removed flagging
+
+commit c3a0f601d6810333e8461465df938f2ef8ced86f
+Author: Xavier Diaz-Sun <xsd2@cornell.edu>
+Date:   Mon May 13 20:12:08 2024 -0400
+
+    fixed readabiltiy for inverse
+
+commit 29333b8f6e9ccdf4286fd3206874dfceed646086
+Author: Xavier Diaz-Sun <xsd2@cornell.edu>
+Date:   Mon May 13 20:11:38 2024 -0400
+
+    fixed readability for inverse
+
+commit e0c1ce3185bd8d06667e9b36fb84b792a918a6c3
+Author: Tami Takada <tamitakada@gmail.com>
+Date:   Mon May 13 19:22:00 2024 -0400
+
+    Fixed win condition
+
+commit 7a563b1d825130423d25788e245e4701a1c0c7b2
+Author: Xavier Diaz-Sun <xsd2@cornell.edu>
+Date:   Mon May 13 18:06:22 2024 -0400
+
+    tried to fix the problem of dying on first iteration, but getting the problem where all tiles are the same now, commented out the stuff I did wrong
+
+commit d006216a7a55875972abae0ee63b89e99873c4e6
+Merge: 4efddfa 0f2a195
+Author: Xavier Diaz-Sun <xsd2@cornell.edu>
+Date:   Mon May 13 17:21:19 2024 -0400
+
+    Merge branch 'main' of github.coecis.cornell.edu:tt554/cs3110-final-project
+
+commit 4efddfac7c58f67c965cc2a6b34b998e8d2eb618
+Author: Xavier Diaz-Sun <xsd2@cornell.edu>
+Date:   Mon May 13 17:16:05 2024 -0400
+
+    tried fixing the theme not updating upon choosing using L.unload_background, but didnt work
+
+commit 0f2a195799d80ae8878eaf878f925e01e79e8537
+Author: Tami Takada <tamitakada@gmail.com>
+Date:   Mon May 13 15:33:33 2024 -0400
+
+    Removed data/
+
+commit 0cd4fb819d8d486f73d6d0a9ad34997f2d2470c4
+Author: Tami Takada <tamitakada@gmail.com>
+Date:   Mon May 13 15:32:09 2024 -0400
+
+    Added idx and db files
+
+commit 9b4270ea9038a1cb69054be4545e9740de120052
+Author: Tami Takada <tamitakada@gmail.com>
+Date:   Mon May 13 15:30:59 2024 -0400
+
+    Quick spec comment for DB
+
+commit e185a549414f171994c194d8b79ad8c1f8ecf7ef
+Author: Tami Takada <tamitakada@gmail.com>
+Date:   Mon May 13 15:26:37 2024 -0400
+
+    Added stats tests
+
+commit 3001f38e54f76dd7183f28bc2b91d8ae3be45a56
+Merge: 63992ac df0c241
+Author: Tami Takada <tamitakada@gmail.com>
+Date:   Mon May 13 15:26:13 2024 -0400
+
+    Removed test query
+
+commit 63992accb5af5026d2d873eded6e3e1a71053a4f
+Author: Tami Takada <tamitakada@gmail.com>
+Date:   Mon May 13 15:01:19 2024 -0400
+
+    Removed test query
+
+commit df0c241d023fae6dec5c2921458cd15bf591cb47
+Author: Xavier Diaz-Sun <xsd2@cornell.edu>
+Date:   Mon May 13 14:08:52 2024 -0400
+
+    removed some comments we no longer need and formatted with .ocamlformat
+
+commit 60d30bacd0d0ae3594f453ad2cad5eb1c0b7e8ea
+Author: Xavier Diaz-Sun <xsd2@cornell.edu>
+Date:   Mon May 13 14:04:00 2024 -0400
+
+    changed colors of some themes for readability
+
+commit a788e1da8c255a764775a9a5ced1d9059d05b78c
+Author: Tami Takada <tamitakada@gmail.com>
+Date:   Mon May 13 12:24:18 2024 -0400
+
+    Fixed differences
+
+commit 4c1373e801a3a253908622e5a97d000ba027890a
+Author: Tami Takada <tamitakada@gmail.com>
+Date:   Mon May 13 12:20:13 2024 -0400
+
+    Sorting fix
+
+commit cf5e89ce5dae95adbf24bc863a747ddd28b3f009
+Author: Tami Takada <tamitakada@gmail.com>
+Date:   Mon May 13 12:19:50 2024 -0400
+
+    Added time
+
+commit ab2298eab971cddc64e7e6e8ac16817299c506d0
+Author: Tami Takada <tamitakada@gmail.com>
+Date:   Mon May 13 10:46:09 2024 -0400
+
+    Injectable root dir for testing
+
+commit ef323f11a0c620901c4ad5c823ac04575488e340
+Author: Tami Takada <tamitakada@gmail.com>
+Date:   Mon May 13 10:35:54 2024 -0400
+
+    Added DB type tests
+
+commit 658272d9c027565d78355cc15fe08abf301501cf
+Author: Tami Takada <tamitakada@gmail.com>
+Date:   Mon May 13 10:06:19 2024 -0400
+
+    Updated notes
+
+commit 28df73313df13e69e50425c6e5c0796e3060ba68
+Author: Tami Takada <tamitakada@gmail.com>
+Date:   Mon May 13 10:06:03 2024 -0400
+
+    Added scores/stats page
+
+commit 4690e9bf203ff294411aeb14108d5ea2bd172cac
+Author: Tami Takada <tamitakada@gmail.com>
+Date:   Mon May 13 08:39:34 2024 -0400
+
+    Mkdir if none for DB files
+
+commit 826921bf88d3553bbbe81d8bfd0d0e8a8a5ff801
+Author: tt554 <tt554@cornell.edu>
+Date:   Mon May 13 08:31:17 2024 -0400
+
+    Delete scores_won.idx
+
+commit 53dd3a9ded382fbafb2f62af18f7e25e486a37e4
+Author: tt554 <tt554@cornell.edu>
+Date:   Mon May 13 08:31:08 2024 -0400
+
+    Delete scores_timeended.idx
+
+commit 23b939b0f3a7c01d43a69ff519603150e0028c02
+Author: tt554 <tt554@cornell.edu>
+Date:   Mon May 13 08:31:00 2024 -0400
+
+    Delete scores_moves.idx
+
+commit faa682cdc92a3f6b01800c550578328b32c5b441
+Author: tt554 <tt554@cornell.edu>
+Date:   Mon May 13 08:30:52 2024 -0400
+
+    Delete scores.db
+
+commit 608f9a533cec152f0e50f2ad4ae2ede0c19b6c7e
+Author: Xavier Diaz-Sun <xsd2@cornell.edu>
+Date:   Mon May 13 00:05:26 2024 -0400
+
+    added data file to .gitignore
+
+commit 6018fef797d372765bc3044e6fbe029510247c6d
+Author: Tami Takada <tamitakada@gmail.com>
+Date:   Sun May 12 23:28:41 2024 -0400
+
+    Updated readme
+
+commit e1551830fc0741659040a5190aea88d425329f55
+Merge: 64e942d e18c600
+Author: Tami Takada <tamitakada@gmail.com>
+Date:   Sun May 12 23:21:41 2024 -0400
+
+    Fixed merge conflicts
+
+commit 64e942d6278fff13b0d391e3f3cc93f6dbb0201b
+Author: Tami Takada <tamitakada@gmail.com>
+Date:   Sun May 12 23:18:32 2024 -0400
+
+    Fixed duplicate caching
+
+commit e18c60092ab6a7efdedb39e5b2368c0ab69d5029
+Author: Xavier Diaz-Sun <xsd2@cornell.edu>
+Date:   Sun May 12 23:07:55 2024 -0400
+
+    added changing background to update_board so that the theme changes on first iteration of playing
+
+commit 2a23375918b93417d0e44c68477404b8ae2fa9d0
+Author: Xavier Diaz-Sun <xsd2@cornell.edu>
+Date:   Sun May 12 23:00:37 2024 -0400
+
+    fixed the background not changing
+
+commit 50156b471499e448fd405c0ca8ee95e1962f84d5
+Merge: daaa921 9934675
+Author: Xavier Diaz-Sun <xsd2@cornell.edu>
+Date:   Sun May 12 22:22:36 2024 -0400
+
+    Merge branch 'main' of github.coecis.cornell.edu:tt554/cs3110-final-project
+
+commit daaa9211ae0ab4bf928233cc745f692a5dfa7c73
+Author: Xavier Diaz-Sun <xsd2@cornell.edu>
+Date:   Sun May 12 22:19:59 2024 -0400
+
+    refactored the base to be in board_display.ml
+
+commit 993467531891618fdcdfef6455455caac7e6301e
+Merge: 19e85f6 ae6f48e
+Author: Tami Takada <tamitakada@gmail.com>
+Date:   Sun May 12 22:16:58 2024 -0400
+
+    Fixed merge conflicts
+
+commit 19e85f6cbed08f51fd024f7842b3ea1df28a30fd
+Author: Tami Takada <tamitakada@gmail.com>
+Date:   Sun May 12 22:10:08 2024 -0400
+
+    Implemented score saving
+
+commit 7fce9fc787b6a63fd4d819863c5b28d8ca5e9586
+Author: Tami Takada <tamitakada@gmail.com>
+Date:   Sun May 12 22:09:31 2024 -0400
+
+    Added index caching and insertion function for database
+
+commit ae6f48ed06e2c0f103c9556fd066356b623ca661
+Author: Xavier Diaz-Sun <xsd2@cornell.edu>
+Date:   Sun May 12 21:21:18 2024 -0400
+
+    removed 'layout' from apply theme
+
+commit 794ea32540867f74843423e68afbb5f8d4fe7a44
+Author: Xavier Diaz-Sun <xsd2@cornell.edu>
+Date:   Sun May 12 21:02:24 2024 -0400
+
+    separated the initial board from the gui version to terminal mode
+
+commit e60222cf9dac2dfdf4a4fab526104057a7eb860a
+Author: Xavier Diaz-Sun <xsd2@cornell.edu>
+Date:   Sun May 12 20:51:56 2024 -0400
+
+    added line under cheatmode for readability
+
+commit 68f0e4adcaa08c221018835cec5195eb328ae3bb
+Author: Xavier Diaz-Sun <xsd2@cornell.edu>
+Date:   Sun May 12 20:28:36 2024 -0400
+
+    made theme picker dropdown maintain whatever theme you are currently at
+
+commit 4a9baa706b4e5bdf56c451dbd88a1a4d2105a069
+Author: Xavier Diaz-Sun <xsd2@cornell.edu>
+Date:   Sun May 12 20:04:58 2024 -0400
+
+    moved where theme picker is located
+
+commit 23dc154f6aaa2eb34c90ee5c0882f9dad23a7ff7
+Author: Xavier Diaz-Sun <xsd2@cornell.edu>
+Date:   Sun May 12 19:43:02 2024 -0400
+
+    added more themes
+
+commit d0c1b442ffb1f37fbbf7b8e4922e08543193db6b
+Author: Xavier Diaz-Sun <xsd2@cornell.edu>
+Date:   Sun May 12 19:37:40 2024 -0400
+
+    added some themes
+
+commit 2f9a81d4024975c27b2f53e549968f403a4c144f
+Author: Xavier Diaz-Sun <xsd2@cornell.edu>
+Date:   Sun May 12 19:18:34 2024 -0400
+
+    moved theme picker from board_display.ml to display_utils.ml
+
+commit 5312a113d910eed6ba59463e75516a645ecd456a
+Author: Xavier Diaz-Sun <xsd2@cornell.edu>
+Date:   Sun May 12 18:29:11 2024 -0400
+
+    refactored the themes functionality
+
+commit 3642a92b9cb466978c35b4805db90b5be33c3d88
+Author: Xavier Diaz-Sun <xsd2@cornell.edu>
+Date:   Sun May 12 16:48:20 2024 -0400
+
+    added cheat mode after every turn to see why win condition not working
+
+commit 1ccd0a6b9e731f81f0c723b23a411501f02299c0
+Author: Xavier Diaz-Sun <xsd2@cornell.edu>
+Date:   Sun May 12 16:41:35 2024 -0400
+
+    barely working theme selector
+
+commit e7bb4a67bcaa1d6e33d99bbed129b8653b3f88c2
+Author: Xavier Diaz-Sun <xsd2@cornell.edu>
+Date:   Sun May 12 16:32:58 2024 -0400
+
+    added select theme button
+
+commit 77f8521b7baaf46654febce6105d806c41992e18
+Author: Xavier Diaz-Sun <xsd2@cornell.edu>
+Date:   Sun May 12 16:20:21 2024 -0400
+
+    added way to select how many mines you want
+
+commit 8678d7dde2be4fb1ae6cf983fda88915443751e1
+Merge: d59b388 4ba86b9
+Author: Xavier Diaz-Sun <xsd2@cornell.edu>
+Date:   Sun May 12 16:17:00 2024 -0400
+
+    Merge branch 'main' of github.coecis.cornell.edu:tt554/cs3110-final-project
+
+commit d59b388ec8f12e06a767ac77b854671f454a58ae
+Author: Xavier Diaz-Sun <xsd2@cornell.edu>
+Date:   Sun May 12 16:15:18 2024 -0400
+
+    added way to pick how many mines you want on the board
+
+commit 4ba86b9da7d4b783998fc0257273f126c97676f8
+Author: Cougar Hashikura <ch999@cornell.edu>
+Date:   Sun May 12 15:56:38 2024 -0400
+
+    Extracted square and board into functors to parametrize on certain features
+    
+    - Square is now a module type, and Square.Make is a functor that takes in an adjacency algorithm to create a square module
+    - Board is now a module type, and Board.Make is a functor that takes in a square type to make a board module
+
+commit b8b993d5d88d16a2f2b0f67e9d135d8822c448c4
+Merge: 6201239 464795a
+Author: Cougar Hashikura <ch999@cornell.edu>
+Date:   Sun May 12 14:58:07 2024 -0400
+
+    Merge branch 'main' of github.coecis.cornell.edu:tt554/cs3110-final-project
+
+commit 62012398ffb97ffa2e2d15048432af1bb094167c
+Author: Cougar Hashikura <ch999@cornell.edu>
+Date:   Sun May 12 14:58:02 2024 -0400
+
+    Minor fixes
+
+commit 464795adfa2c8b02d8334ad897814f36da44a974
+Author: Tami Takada <tamitakada@gmail.com>
+Date:   Sun May 12 11:02:33 2024 -0400
+
+    Added yojson and unix dependencies
+
+commit 2116a51f5beadddfe0f05553fa0eb7767951021f
+Author: Tami Takada <tamitakada@gmail.com>
+Date:   Sun May 12 11:02:09 2024 -0400
+
+    Added DB implementation for game scores
+
+commit 84c23a54789f67eb2164c5802eb1a4db70bd9eee
+Author: Tami Takada <tamitakada@gmail.com>
+Date:   Sun May 12 11:01:46 2024 -0400
+
+    Minor fixes
+
+commit 6fb822271878e75d7eb84d90aec9f7ca8c0b5cc1
+Merge: 12c8bfb 67ef90b
+Author: Tami Takada <tamitakada@gmail.com>
+Date:   Sun May 12 10:20:22 2024 -0400
+
+    Merge branch 'main' of github.coecis.cornell.edu:tt554/cs3110-final-project
+
+commit 12c8bfbb474fa2237858d2641dea2e9fc1590315
+Author: Tami Takada <tamitakada@gmail.com>
+Date:   Sun May 12 10:19:59 2024 -0400
+
+    Added basic database system with create/read functions
+
+commit 67ef90b8ef6eebf9be6e94f711640ba482780bf2
+Merge: a1cfaed 7e343e9
+Author: Cougar Hashikura <ch999@cornell.edu>
+Date:   Sat May 11 15:57:53 2024 -0400
+
+    Merge branch 'main' of github.coecis.cornell.edu:tt554/cs3110-final-project
+
+commit a1cfaedb0584dd42a94f36f487d2e8dd93055704
+Author: Cougar Hashikura <ch999@cornell.edu>
+Date:   Sat May 11 15:57:49 2024 -0400
+
+    Fixed opening free adjacent tiles algorithm
+
+commit 7e343e93c85637086c9bee1f860fd846b658b738
+Author: Xavier Diaz-Sun <xsd2@cornell.edu>
+Date:   Sat May 11 15:42:26 2024 -0400
+
+    added way to pick how many mines you want
+
+commit 024c62f2720f6fb7acf5393ef6c0bcff0dc61d00
+Author: Cougar Hashikura <ch999@cornell.edu>
+Date:   Sat May 11 15:26:12 2024 -0400
+
+    Fixed game instantly ending after first call
+
+commit ea6f4491a7d3f5efaaf879299e3ab99f4304f0ef
+Author: Xavier Diaz-Sun <xsd2@cornell.edu>
+Date:   Sat May 11 15:19:13 2024 -0400
+
+    began implementation for themes for the UI
+
+commit 84097a8bd29ef0fc6e43142621b4c65279112501
+Author: Xavier Diaz-Sun <xsd2@cornell.edu>
+Date:   Sat May 11 14:45:00 2024 -0400
+
+    fixed some compilation unit errors
+
+commit ab1d733ded5ecfc1cabf16d4850b60bbecde7d3e
+Merge: 7481da6 0135813
+Author: Xavier Diaz-Sun <xsd2@cornell.edu>
+Date:   Sat May 11 14:37:54 2024 -0400
+
+    Merge branch 'main' of github.coecis.cornell.edu:tt554/cs3110-final-project
+
+commit 7481da63a3aed068745d7926a714aedbf5e09838
+Author: Xavier Diaz-Sun <xsd2@cornell.edu>
+Date:   Sat May 11 14:36:24 2024 -0400
+
+    tried fixing update_mines
+
+commit 0135813cb7ecbc84321b2e6f1e847575ef4aaa77
+Author: Cougar Hashikura <ch999@cornell.edu>
+Date:   Sat May 11 14:35:08 2024 -0400
+
+    Fixed terminal mode
+    
+    - All squares are back to being treated differently
+    - Cheat mode correctly prints adjacent mine count
+
+commit 7709c37310988134619ab49ef896d8fdcd9eab48
+Author: Xavier Diaz-Sun <xsd2@cornell.edu>
+Date:   Sat May 11 14:14:06 2024 -0400
+
+    added cheat mode
+    * using arrays to print out each line
+    * need to fix how we update the board when we initialize it so the tiles get mines
+
+commit 85f07682b3f006121983f1ecc18d3321ad063de4
+Merge: d277068 f9f66ba
+Author: Cougar Hashikura <ch999@cornell.edu>
+Date:   Sat May 11 13:49:42 2024 -0400
+
+    Merge branch 'main' of github.coecis.cornell.edu:tt554/cs3110-final-project
+
+commit d2770687e642e27f06395032880c75b28f2ffcfa
+Author: Cougar Hashikura <ch999@cornell.edu>
+Date:   Sat May 11 13:45:38 2024 -0400
+
+    Started reimplementing terminal mode
+    
+    - Resolved erroneous "solved" board conditions
+    - Terminal mode works by adding arbitrary argument after dune exec bin/main.exe
+    - Bugged implementation that treats every space as open w/ no adjacent mines after first input
+
+commit f9f66baaa6ecce316133ee1a95c39d5d1008f539
+Author: Tami Takada <tamitakada@gmail.com>
+Date:   Fri May 10 10:45:03 2024 -0400
+
+    Partial B-tree implementation
+
+commit 3f1b456fbb2ecc6daaff2d7c790da82442905083
+Merge: 512fc18 915a13b
+Author: Xavier Diaz-Sun <xsd2@cornell.edu>
+Date:   Thu May 9 16:28:36 2024 -0400
+
+    Merge branch 'main' of github.coecis.cornell.edu:tt554/cs3110-final-project
+
+commit 512fc181180d3c8e08e441e86d13d35fdc28b696
+Author: Xavier Diaz-Sun <xsd2@cornell.edu>
+Date:   Thu May 9 16:27:31 2024 -0400
+
+    changed board.ml so that we checking flag is based on square and not coordinate
+    * added green to constants
+    * added checking for flag in board_display.ml
+
+commit 915a13b6b880cf34c4399ba50658f91fb9e806ae
+Author: Cougar Hashikura <ch999@cornell.edu>
+Date:   Thu May 9 13:08:40 2024 -0400
+
+    Modified board creation
+    
+    - Default square now generated w/ unit -> t function
+    - Populating array w/ empty square treats each square as a separate element
+    
+    Co-authored-by: Xavier Steven Diaz-Sun <xsd2@cornell.edu>
+
+commit 436f92bc51dd74673f546e3adc8632159ffd38a7
+Author: Tami Takada <tamitakada@gmail.com>
+Date:   Wed May 8 11:25:34 2024 -0400
+
+    Fixed page formatting/sizing
+
+commit 2ca09c28e5422724b56a1829a97cc66feb08504b
+Author: Tami Takada <tamitakada@gmail.com>
+Date:   Wed May 8 11:12:19 2024 -0400
+
+    Updated readme
+
+commit 10426ee65ae29728edf03f2bcb6861f7667f0305
+Author: Tami Takada <tamitakada@gmail.com>
+Date:   Wed May 8 11:11:53 2024 -0400
+
+    Added board dimension selection
+
+commit 3ef3b0b96b24434e6e8ce3b9600b34aa6ade65bd
+Author: Xavier Diaz-Sun <xsd2@cornell.edu>
+Date:   Tue May 7 19:14:37 2024 -0400
+
+    added logic for when there is a flag on a coordinate, but it is not actually a mine
+
+commit af980218c8f4c5fbc5cc74eff4ae42ffa4b71d80
+Author: Xavier Diaz-Sun <xsd2@cornell.edu>
+Date:   Tue May 7 19:08:20 2024 -0400
+
+    beginning to add functionality for setting the flags for the mines
+
+commit bf3b6617bcc6378deac32fde9bbc51fe5d09167a
+Author: Xavier Diaz-Sun <xsd2@cornell.edu>
+Date:   Tue May 7 18:51:29 2024 -0400
+
+    abstracted different functions in init_board to make it easier to read
+
+commit 12154b8827d4974bba37a27f457cf9e1ec53f5e6
+Merge: 102367f b6f5c1f
+Author: Xavier Diaz-Sun <xsd2@cornell.edu>
+Date:   Tue May 7 17:51:16 2024 -0400
+
+    merge conflicts
+
+commit b6f5c1fe613a78bef047ecd994c7aec1366379cf
+Author: Tami Takada <tamitakada@gmail.com>
+Date:   Tue May 7 16:18:57 2024 -0400
+
+    Updated todos
+
+commit 141f44e63e734e91af522abfde0c8292e2c14ae7
+Author: Tami Takada <tamitakada@gmail.com>
+Date:   Tue May 7 16:18:24 2024 -0400
+
+    Added results page assets
+
+commit d5f54364f761a6efd95bb4eb9f6018eb2a8ae9f7
+Author: Tami Takada <tamitakada@gmail.com>
+Date:   Tue May 7 16:18:02 2024 -0400
+
+    Added results page and backwards navigation
+
+commit 102367ff04e66334fe9599dae40d34b4fc8a1877
+Merge: 56d0ce3 9ca2626
+Author: Xavier Diaz-Sun <xsd2@cornell.edu>
+Date:   Mon May 6 14:01:26 2024 -0400
+
+    Merge branch 'main' of github.coecis.cornell.edu:tt554/cs3110-final-project
+
+commit 56d0ce3f3aae5e03e96d981f49d4ab495e6e17aa
+Merge: 856c4b6 f748f19
+Author: Xavier Diaz-Sun <xsd2@cornell.edu>
+Date:   Mon May 6 13:58:22 2024 -0400
+
+    Merge branch 'main' of github.coecis.cornell.edu:tt554/cs3110-final-project
+
+commit 9ca2626fc47869e0401cea49ffa7ec23d38e3d10
+Author: Tami Takada <tamitakada@gmail.com>
+Date:   Sun May 5 13:54:05 2024 -0400
+
+    Added notes & todo
+
+commit c34f3e35f64f29917313360d980c7eb3c2ff6518
+Author: Tami Takada <tamitakada@gmail.com>
+Date:   Sun May 5 13:53:55 2024 -0400
+
+    Fixed color issue
+
+commit 708224224e884c2dea9aa7e4a1e2271a77536612
+Author: Tami Takada <tamitakada@gmail.com>
+Date:   Sun May 5 13:44:16 2024 -0400
+
+    Added documentation for UI functions
+
+commit 16f960c1d1f0399fcecea72ff32a3118db269f50
+Author: Tami Takada <tamitakada@gmail.com>
+Date:   Sun May 5 13:27:52 2024 -0400
+
+    Added main menu
+
+commit 856c4b6b6b2e1a96e8aa4c0c1c5ade03779264d0
+Author: Xavier Diaz-Sun <xsd2@cornell.edu>
+Date:   Sun May 5 11:18:37 2024 -0400
+
+    formatted with .ocamlformat
+
+commit f748f19b5fef225b08bd123bb5870e2f775c5e17
+Author: Tami Takada <tamitakada@gmail.com>
+Date:   Sun May 5 09:29:58 2024 -0400
+
+    Made UI responsive; clicks reveal squares
+
+commit 2939b5934ad36d419a0bcb60f5798e6d112cf5e8
+Merge: 24034c7 78a9b22
+Author: Caleb Woo <cw883@cornell.edu>
+Date:   Thu May 2 15:02:53 2024 -0400
+
+    Merge branch 'main' of github.coecis.cornell.edu:tt554/cs3110-final-project into main
+
+commit 24034c711a77f1789ee87701fd2d8ab6f7cbbb31
+Author: Caleb Woo <cw883@cornell.edu>
+Date:   Thu May 2 15:02:37 2024 -0400
+
+    More Testing
+    
+    -added one more test for to_string and set_mine
+
+commit 78a9b22fb3925e25455bd8ec3536ac18ccdfe3db
+Author: Tami Takada <tamitakada@gmail.com>
+Date:   Sun Apr 28 17:32:19 2024 -0400
+
+    Added basic GUI to display board after terminal guess
+
+commit 8786451b8aa7e036bf795b065594bf459de0f649
+Author: Caleb Woo <cw883@cornell.edu>
+Date:   Thu Apr 25 00:43:55 2024 -0400
+
+    More Testing
+    
+    - Added tests for to_string
+    -will add find_adjacent tests and board tests
+
+commit 8505834d2714c40c883eeb2e40c18ad814b138fe
+Author: Caleb Woo <cw883@cornell.edu>
+Date:   Thu Apr 25 00:23:56 2024 -0400
+
+    Testing Square Functions
+    
+    - Added OUnit suite of exposed functions in Square module
+    - Filled in .ocamlformat as well
+
+commit 26c5f4b2690dbf92187b1e9ec8911bb9c94f705d
+Author: Tami Takada <tamitakada@gmail.com>
+Date:   Thu Mar 28 21:55:15 2024 -0400
+
+    Bug fixed init and reveal_square
+
+commit b6115ba9f70c17e9219ad30a51f9addcb114f06d
+Author: Tami Takada <tamitakada@gmail.com>
+Date:   Thu Mar 28 10:59:32 2024 -0400
+
+    Added input getter and basic validation
+
+commit 1e00b6673491074ba87024616af1206f8757618b
+Author: Tami Takada <tamitakada@gmail.com>
+Date:   Thu Mar 28 09:50:06 2024 -0400
+
+    Documented Board and made minor typing changes
+
+commit b85cb35dd1eb0c9e0dea458092f6222900584961
+Author: Tami Takada <tamitakada@gmail.com>
+Date:   Thu Mar 28 09:38:18 2024 -0400
+
+    Made W/H of board dynamic, extracted board functions into their own module
+
+commit 0c773e55b50e0869a5b3f96e3747ac1d9489470d
+Author: Cougar Hashikura <ch999@cornell.edu>
+Date:   Wed Mar 27 23:08:56 2024 -0400
+
+    Implemented printing, debugging
+    
+    - Board now prints semi-correctly with bombs placed in correct spots
+    - Calculating adjacent squares is broken somehow, probably has to do with misused mutability references (please help)
+    
+    Co-authored-by: cw883 <cw883@users.noreply.github.com>
+
+commit 2fae83db035159f0f338d949f9eef2f308404de4
+Merge: 1799a18 8976def
+Author: Cougar Hashikura <ch999@cornell.edu>
+Date:   Tue Mar 26 16:36:12 2024 -0400
+
+    Merge branch 'main' of github.coecis.cornell.edu:tt554/cs3110-final-project
+
+commit 1799a18679950d1bc4a5a4d4c1733ead2cd0e434
+Author: Cougar Hashikura <ch999@cornell.edu>
+Date:   Tue Mar 26 16:28:17 2024 -0400
+
+    Prototype Checkpoint 1
+    
+    - Implemented compilation unit for a square on a board and relevant functions
+    - Implemented board initialization and bomb placement
+    - Linking squares to adjacent squares is currently bugged
+
+commit 8976def14c79816cabe68a8ac2bb109825788e5e
+Author: ch999 <ch999@cornell.edu>
+Date:   Wed Mar 13 21:02:54 2024 -0400
+
+    Update README.md
+
+commit 1ce583a07dbd69fafc3229ee816b780db3dfea0d
+Author: cw883 <cw883@cornell.edu>
+Date:   Wed Mar 13 20:34:56 2024 -0400
+
+    Update README.md
+
+commit 1f0cd1984040bedcd63e760cfed96f54703aa037
+Author: Xavier Diaz-Sun <xsd2@cornell.edu>
+Date:   Wed Mar 13 20:33:43 2024 -0400
+
+    Added Xavier's name/netid
+
+commit 9a7cb0c0ac76b8156c41e502cdde4f390c34c0c0
+Author: tt554 <tt554@cornell.edu>
+Date:   Mon Mar 11 11:34:35 2024 -0400
+
+    Added name to README
+
+commit a1758af4837b8c59e2dc0db4611e94eeef315644
+Author: tt554 <tt554@cornell.edu>
+Date:   Mon Mar 11 11:19:39 2024 -0400
+
+    Initial commit
