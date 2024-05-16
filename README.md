@@ -3,9 +3,9 @@
 ## Team Members
 
 * Tami Takada (<tt554@cornell.edu>)
-* Xavier Diaz-Sun (xsd2)
-* Caleb Woo (cw883)
-* Cougar Hashikura (ch999)
+* Xavier Diaz-Sun (<xsd2@cornell.edu>)
+* Caleb Woo (<cw883@cornell.edu>)
+* Cougar Hashikura (<ch999@cornell.edu>)
 
 ## Description
 
